@@ -33,4 +33,4 @@
 - Detect when the server is not running
 - Use eslint on the code
 - Improve variable names
-- run ```npm audit fix```
+- Run ```npm audit fix```

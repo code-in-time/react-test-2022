@@ -26,7 +26,7 @@ function PaymentsData() {
       // Get the next page index
       const nextPageIndex = data.data.metaDatal.nextPageIndex
 
-      return (<button type="button" onClick={() => loadPaymentData(`?pagelndex=${nextPageIndex}`)}>LOAD NEXT PAGE KEY: ({nextPageIndex})</button>)
+      return (<button type="button" onClick={() => loadPaymentData(`?pageIndex=${nextPageIndex}`)}>LOAD NEXT PAGE KEY: ({nextPageIndex})</button>)
     } else {
       return;
     }

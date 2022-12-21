@@ -6,7 +6,7 @@ import "./app.scss";
 
 const App = () => {
   return <>
-    <h1>This is a payment Application</h1>
+    <h1>This is a payment application</h1>
     <hr />
     <PaymentsData />
   </>;
